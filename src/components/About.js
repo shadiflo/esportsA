@@ -34,11 +34,7 @@ const About = () => {
                
               </p>
             </div>
-            <div className="edrea_tm_button">
-              <a href="#" onClick={() => showAboutPopup()}>
-                Learn More
-              </a>
-            </div>
+            
           </div>
           <div className="right w-[60%] pl-[100px]">
           <div className="short w-full float-left mb-[24px] border-dashed border-[rgba(255,255,255,.15)] border-b pb-[30px]">
@@ -57,11 +53,7 @@ const About = () => {
                
               </p>
             </div>
-            <div className="edrea_tm_button">
-              <a href="#" onClick={() => showAboutPopup()}>
-                Learn More
-              </a>
-            </div>
+           
           </div>
         </div>
       </div>
