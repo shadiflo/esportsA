@@ -18,8 +18,8 @@ __webpack_require__.d(__webpack_exports__, {
 
 // EXTERNAL MODULE: external "react/jsx-runtime"
 var jsx_runtime_ = __webpack_require__(997);
-// EXTERNAL MODULE: ./styles/globals.css
-var globals = __webpack_require__(6764);
+// EXTERNAL MODULE: ./src/styles/globals.css
+var globals = __webpack_require__(108);
 ;// CONCATENATED MODULE: external "next/head"
 const head_namespaceObject = require("next/head");
 var head_default = /*#__PURE__*/__webpack_require__.n(head_namespaceObject);
@@ -90,7 +90,7 @@ const App = ({ Component , pageProps  })=>{
 
 /***/ }),
 
-/***/ 6764:
+/***/ 108:
 /***/ (() => {
 
 
