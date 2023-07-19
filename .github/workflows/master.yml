@@ -15,8 +15,10 @@ jobs:
         username: ${{ secrets.SSH_USER}}
         password: ${{ secrets.SSH_PASSWORD}}
         exclude: |
-                   **/src*/**
-                   **/backend/node_modules*/**
+                  
+                   **/pages*/**
+                   **/styles*/**
+                   **/node_modules*/**
                    **/public*/**
                    **/.git*
                    **/.git*/**
