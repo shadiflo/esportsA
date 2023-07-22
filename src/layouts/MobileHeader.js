@@ -20,7 +20,7 @@ const MobileHeader = () => {
             <a href="#">
               <img
                 className="max-w-[140px] max-h-[40px]"
-                src="assets/img/logo/logo.png"
+                src="assets/img/logo/logo1.jpg"
                 alt=""
               />
             </a>
