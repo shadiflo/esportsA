@@ -5,6 +5,7 @@ import News from "../src/components/News";
 import Portfolio from "../src/components/Portfolio";
 import Layout from "../src/layouts/Layout";
 import { Resources } from "../src/components/resources";
+import Board from "../src/components/Board";
 const Index = () => {
   return (
     <Layout>
@@ -21,7 +22,6 @@ const Index = () => {
       <News />
       {/* /NEWS */}
       {/* CONTACT */}
-      
       
       <Contact />
       {/* /CONTACT */}

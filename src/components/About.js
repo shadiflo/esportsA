@@ -29,7 +29,7 @@ const About = () => {
             <div className="text w-full float-left mb-[36px]">
               <p>
                 My name is{" "}
-                <span className="text-white-color">Florin.</span> I am the co-Founder
+                <span className="text-white-color">Florin.</span> I am the Founder
                 of <span className="text-white-color">Tenarisesports</span>
                
               </p>
@@ -40,29 +40,7 @@ const About = () => {
               </a>
             </div>
           </div>
-          <div className="right w-[60%] pl-[100px]">
-          <div className="short w-full float-left mb-[24px] border-dashed border-[rgba(255,255,255,.15)] border-b pb-[30px]">
-              <h3 className="name uppercase mb-[15px] text-[40px] font-bold">
-               Ionut <span className="text-pink-color">'jUN'</span>
-              </h3>
-              <h3 className="job text-[18px] font-normal text-main-color">
-                <AnimatedText />
-              </h3>
-            </div>
-            <div className="text w-full float-left mb-[36px]">
-            <p>
-                My name is{" "}
-                <span className="text-white-color">jUN</span> I am the co-Founder
-                of <span className="text-white-color">Tenarisesports</span>
-               
-              </p>
-            </div>
-            <div className="edrea_tm_button">
-              <a href="#" onClick={() => showAboutPopup()}>
-                Learn More
-              </a>
-            </div>
-          </div>
+         
         </div>
       </div>
     </div>

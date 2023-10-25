@@ -11,29 +11,21 @@ const AboutPopup = () => {
   const { showAboutPopup, aboutPopup, color } = useContext(context);
 
   const aboutData = {
-    firstName: "David",
-    lastName: "Parker",
-    bithday: "01.07.1990",
-    address: "Avon str. 22, NYC, USA",
-    phn: "+77 022 155 02 02",
-    email: "example@gmail.com",
+    firstName: "Florin",
+    lastName: "Stefanescu",
+    bithday: "01.07.1996",
+    address: "Milan, Italy",
     serviceLists: [
       "Website Development",
-      "Digital Experience",
+      "Esports Manager",
       "Content Marketing",
-      "Social Media Design",
-      "Shared Web Hosting",
+      "Product JuniorManager",
     ],
     skills: {
       programming: [
         { name: "WordPress", value: "95" },
-        { name: "JavaScript", value: "80" },
-        { name: "Angular", value: "90" },
-      ],
-      language: [
-        { name: "English", value: "95" },
-        { name: "Russian", value: "80" },
-        { name: "Arabic", value: "90" },
+        { name: "JavaScript", value: "75" },
+        { name: "React", value: "75" },
       ],
     },
     education: [
@@ -94,7 +86,7 @@ const AboutPopup = () => {
               </div>
               <div className="short w-full float-left">
                 <h3 className="name text-[22px] uppercase mb-[7px]">
-                  David <span className="text-pink-color">Parker</span>
+                  Florin <span className="text-pink-color">Stefanescu</span>
                 </h3>
                 <h3 className="job font-normal text-main-color text-[15px]">
                   <AnimatedText />
@@ -106,41 +98,12 @@ const AboutPopup = () => {
                 <li className="w-full float-left border-dashed border-[rgba(255,255,255,.15)] border-b pb-[7px] mb-[7px]">
                   <div className="list_inner m-0 w-full float-left relative">
                     <i className="icon-user text-pink-color text-[16px] absolute left-0 top-1/2 translate-y-[-50%]" />
-                    <span className="pl-[37px]">David Parker</span>
+                    <span className="pl-[37px]">Florin</span>
                   </div>
                 </li>
-                <li className="w-full float-left border-dashed border-[rgba(255,255,255,.15)] border-b pb-[7px] mb-[7px]">
-                  <div className="list_inner m-0 w-full float-left relative">
-                    <i className="icon-calendar text-pink-color text-[16px] absolute left-0 top-1/2 translate-y-[-50%]" />
-                    <span className="pl-[37px]">01.07.1990</span>
-                  </div>
-                </li>
-                <li className="w-full float-left border-dashed border-[rgba(255,255,255,.15)] border-b pb-[7px] mb-[7px]">
-                  <div className="list_inner m-0 w-full float-left relative">
-                    <i className="icon-location text-pink-color text-[16px] absolute left-0 top-1/2 translate-y-[-50%]" />
-                    <span className="pl-[37px]">
-                      <a
-                        href="#"
-                        className="href_location no-underline text-white-color transition-all duration-300 hover:text-pink-color"
-                      >
-                        Avon str. 22, NYC, USA
-                      </a>
-                    </span>
-                  </div>
-                </li>
-                <li className="w-full float-left border-dashed border-[rgba(255,255,255,.15)] border-b pb-[7px] mb-[7px]">
-                  <div className="list_inner m-0 w-full float-left relative">
-                    <i className="icon-phone text-pink-color text-[16px] absolute left-0 top-1/2 translate-y-[-50%]" />
-                    <span className="pl-[37px]">
-                      <a
-                        className="no-underline text-white-color transition-all duration-300 hover:text-pink-color"
-                        href="#"
-                      >
-                        +77 022 155 02 02
-                      </a>
-                    </span>
-                  </div>
-                </li>
+               
+                
+                
                 <li className="w-full float-left">
                   <div className="list_inner m-0 w-full float-left relative">
                     <i className="icon-mail-1 text-pink-color text-[16px] absolute left-0 top-1/2 translate-y-[-50%]" />
@@ -149,7 +112,7 @@ const AboutPopup = () => {
                         className="no-underline text-white-color transition-all duration-300 hover:text-pink-color"
                         href="mailto:example@gmail.com"
                       >
-                        example@gmail.com
+                        shadi.dev@
                       </a>
                     </span>
                   </div>
@@ -175,10 +138,8 @@ const AboutPopup = () => {
               </div>
               <div className="text mt-[29px] float-left">
                 <p>
-                  Hello everybody! My name is <span>David Parker.</span> I am a
-                  graphic designer, and I'm very passionate and dedicated to my
-                  work. With 20 years experience as a professional a graphic
-                  designer, I have acquired the skills and knowledge.
+                  Hello everybody! My name is <span>Florin.</span> I am a
+                  developer.
                 </p>
               </div>
             </div>
@@ -195,10 +156,6 @@ const AboutPopup = () => {
                   <li className="mb-[8px] w-full float-left relative pl-[25px]">
                     <i className="icon-right-dir absolute left-[-7px] top-1/2 translate-y-[-50%] text-pink-color text-[16px] mt-[1px]" />
                     Website Development
-                  </li>
-                  <li className="mb-[8px] w-full float-left relative pl-[25px]">
-                    <i className="icon-right-dir absolute left-[-7px] top-1/2 translate-y-[-50%] text-pink-color text-[16px] mt-[1px]" />
-                    Digital Experience
                   </li>
                   <li className="mb-[8px] w-full float-left relative pl-[25px]">
                     <i className="icon-right-dir absolute left-[-7px] top-1/2 translate-y-[-50%] text-pink-color text-[16px] mt-[1px]" />
@@ -248,128 +205,19 @@ const AboutPopup = () => {
                 </div>
                 <div className="progress_inner" data-value={90}>
                   <span>
-                    <span className="label">Angular</span>
-                    <span className="number">90%</span>
+                    <span className="label">React</span>
+                    <span className="number">75%</span>
                   </span>
                   <div className="background">
                     <div className="bar open">
-                      <div className="bar_in" style={{ width: "90%" }} />
+                      <div className="bar_in" style={{ width: "75%" }} />
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="lang_skill w-full float-left mb-[34px]">
-              <div className="about_title w-full float-left relative overflow-hidden border-dashed border-[rgba(255,255,255,.15)] border-b pb-[15px]">
-                <h3 className="text-[18px] font-semibold">
-                  <span className="text-white-color">
-                    Language <span className="text-pink-color">Skills</span>
-                  </span>
-                </h3>
-              </div>
-              <div className="circular_progress_bar w-full h-auto clear-both float-left mt-[40px]">
-                <ul className="ml-[-20px]">
-                  {aboutData.skills &&
-                    aboutData.skills.language &&
-                    aboutData.skills.language.map((language, i) => (
-                      <li
-                        key={i}
-                        className="mb-[20px] w-1/3 float-left pl-[20px]"
-                      >
-                        <div className="list_inner w-full relative text-center">
-                          <div
-                            className="myCircle relative float-left"
-                            data-value="0.95"
-                          >
-                            <CircularProgressbar
-                              value={language.value}
-                              text={`${language.value}%`}
-                              strokeWidth={2}
-                              styles={buildStyles({
-                                // Colors
-                                pathColor: color,
-                              })}
-                            />
-                          </div>
-                          <div className="title w-full max-w-[110px] text-center">
-                            <span>{language.name}</span>
-                          </div>
-                        </div>
-                      </li>
-                    ))}
-                  {/* <li className="mb-[20px] w-1/3 float-left pl-[20px]">
-                    <div className="list_inner w-full relative text-center">
-                      <div
-                        className="myCircle relative float-left"
-                        data-value="0.95"
-                      >
-                        <canvas width={110} height={110} />
-                        <span className="number">95%</span>
-                      </div>
-                      <div className="title w-full max-w-[110px] text-center">
-                        <span className="inline-block mt-[5px]">English</span>
-                      </div>
-                    </div>
-                  </li> */}
-                </ul>
-              </div>
-            </div>
-            <div className="timeline w-full float-left mb-[55px]">
-              <div className="about_title w-full float-left relative overflow-hidden border-dashed border-[rgba(255,255,255,.15)] border-b pb-[15px]">
-                <h3 className="text-[18px] font-semibold">
-                  <span className="text-white-color">
-                    Education <span className="text-pink-color">Timeline</span>
-                  </span>
-                </h3>
-              </div>
-              <div className="list w-full h-auto clear-both float-left mt-[45px]">
-                <ul className="m-0 list-none relative inline-block pt-[10px]">
-                  <li className="m-0 w-full float-left relative pl-[20px] pb-[45px]">
-                    <div className="list_inner w-full h-auto clear-both flex relative">
-                      <div className="time w-1/2 pr-[15px]">
-                        <span className="inline-block px-[25px] py-[5px] bg-[rgba(255,255,255,.05)] rounded-[50px] text-[14px] whitespace-nowrap">
-                          2014 - 2016
-                        </span>
-                      </div>
-                      <div className="place w-1/2 pl-[15px]">
-                        <h3 className="text-[15px] mb-[2px]">
-                          Oxford Univercity
-                        </h3>
-                        <span className="text-[14px]">Master Degree</span>
-                      </div>
-                    </div>
-                  </li>
-                  <li className="m-0 w-full float-left relative pl-[20px] pb-[45px]">
-                    <div className="list_inner w-full h-auto clear-both flex relative">
-                      <div className="time w-1/2 pr-[15px]">
-                        <span className="inline-block px-[25px] py-[5px] bg-[rgba(255,255,255,.05)] rounded-[50px] text-[14px] whitespace-nowrap">
-                          2010 - 2014
-                        </span>
-                      </div>
-                      <div className="place w-1/2 pl-[15px]">
-                        <h3 className="text-[15px] mb-[2px]">
-                          Texas Univercity
-                        </h3>
-                        <span className="text-[14px]">Bacheloor Degree</span>
-                      </div>
-                    </div>
-                  </li>
-                  <li className="m-0 w-full float-left relative pl-[20px]">
-                    <div className="list_inner w-full h-auto clear-both flex relative">
-                      <div className="time w-1/2 pr-[15px]">
-                        <span className="inline-block px-[25px] py-[5px] bg-[rgba(255,255,255,.05)] rounded-[50px] text-[14px] whitespace-nowrap">
-                          2008 - 2010
-                        </span>
-                      </div>
-                      <div className="place w-1/2 pl-[15px]">
-                        <h3 className="text-[15px] mb-[2px]">Simone College</h3>
-                        <span className="text-[14px]">Associate Degree</span>
-                      </div>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-            </div>
+            
+           
             <div className="timeline w-full float-left mb-[55px]">
               <div className="about_title w-full float-left relative overflow-hidden border-dashed border-[rgba(255,255,255,.15)] border-b pb-[15px]">
                 <h3 className="text-[18px] font-semibold">
@@ -475,98 +323,7 @@ const AboutPopup = () => {
                 </ul>
               </div>
             </div>
-            <div className="testimonial w-full float-left">
-              <div className="about_title w-full float-left relative overflow-hidden border-dashed border-[rgba(255,255,255,.15)] border-b pb-[15px]">
-                <h3 className="text-[18px] font-semibold">
-                  <span className="text-white-color">
-                    Clients <span className="text-pink-color">Feedback</span>
-                  </span>
-                </h3>
-              </div>
-              <div className="list w-full h-auto clear-both float-left mt-[54px]">
-                <Swiper
-                  {...testimonialSlider}
-                  className="m-0 list-none cursor-e-resize"
-                >
-                  <SwiperSlide className="m-0">
-                    <div className="list_inner w-full h-auto clear-both float-left relative">
-                      <div className="text w-full h-auto clear-both float-left relative border-solid border-[#333] border p-[40px] mb-[30px]">
-                        <i className="icon-quote-left absolute z-[1] text-[30px] top-[-16px] left-[50px] text-pink-color" />
-                        <p>
-                          Beautiful minimalist design and great, fast response
-                          with support. Highly recommend. Thanks Marketify!
-                        </p>
-                      </div>
-                      <div className="details w-full h-auto clear-both float-left flex items-center pl-[20px]">
-                        <div className="image relative w-[60px] h-[60px]">
-                          <div
-                            className="main absolute inset-0 bg-no-repeat bg-cover bg-center rounded-full"
-                            data-img-url="assets/img/testimonials/1.jpg"
-                          />
-                        </div>
-                        <div className="info pl-[20px]">
-                          <h3 className="text-[15px] mb-[2px]">
-                            Alexander Walker
-                          </h3>
-                          <span className="text-[14px]">Graphic Designer</span>
-                        </div>
-                      </div>
-                    </div>
-                  </SwiperSlide>
-                  <SwiperSlide className="m-0">
-                    <div className="list_inner w-full h-auto clear-both float-left relative">
-                      <div className="text w-full h-auto clear-both float-left relative border-solid border-[#333] border p-[40px] mb-[30px]">
-                        <i className="icon-quote-left absolute z-[1] text-[30px] top-[-16px] left-[50px] text-pink-color" />
-                        <p>
-                          These people really know what they are doing! Great
-                          customer support availability and supperb kindness.
-                        </p>
-                      </div>
-                      <div className="details w-full h-auto clear-both float-left flex items-center pl-[20px]">
-                        <div className="image relative w-[60px] h-[60px]">
-                          <div
-                            className="main absolute inset-0 bg-no-repeat bg-cover bg-center rounded-full"
-                            data-img-url="assets/img/testimonials/2.jpg"
-                          />
-                        </div>
-                        <div className="info pl-[20px]">
-                          <h3 className="text-[15px] mb-[2px]">
-                            Armin Van Buuren
-                          </h3>
-                          <span className="text-[14px]">Content Manager</span>
-                        </div>
-                      </div>
-                    </div>
-                  </SwiperSlide>
-                  <SwiperSlide className="m-0">
-                    <div className="list_inner w-full h-auto clear-both float-left relative">
-                      <div className="text w-full h-auto clear-both float-left relative border-solid border-[#333] border p-[40px] mb-[30px]">
-                        <i className="icon-quote-left absolute z-[1] text-[30px] top-[-16px] left-[50px] text-pink-color" />
-                        <p>
-                          I had a little problem and the support was just
-                          awesome to quickly solve the situation. And keep going
-                          on.
-                        </p>
-                      </div>
-                      <div className="details w-full h-auto clear-both float-left flex items-center pl-[20px]">
-                        <div className="image relative w-[60px] h-[60px]">
-                          <div
-                            className="main absolute inset-0 bg-no-repeat bg-cover bg-center rounded-full"
-                            data-img-url="assets/img/testimonials/3.jpg"
-                          />
-                        </div>
-                        <div className="info pl-[20px]">
-                          <h3 className="text-[15px] mb-[2px]">
-                            Baraka Clinton
-                          </h3>
-                          <span className="text-[14px]">English Teacher</span>
-                        </div>
-                      </div>
-                    </div>
-                  </SwiperSlide>
-                </Swiper>
-              </div>
-            </div>
+           
           </div>
         </div>
       </div>
