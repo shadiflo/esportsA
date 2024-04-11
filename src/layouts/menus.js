@@ -1,6 +1,6 @@
 export const menus = [
   { name: "Home", href: "home" },
-  { name: "Ranking", href: "Ranking" },
+  { name: "Badges", href: "contact" },
   { name: "About", href: "about" },
-  { name: "Contact", href: "contact" },
+  ,
 ];

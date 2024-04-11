@@ -15,7 +15,7 @@ const Header = () => {
           <a href="#" onClick={() => changeNav("home")}>
             <img
               className="max-w-[100px]"
-              src="assets/img/logo/logo1.jpg"
+              src="assets/img/logo/logof.png"
               alt=""
             />
           </a>

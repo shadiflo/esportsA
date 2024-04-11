@@ -1,7 +1,7 @@
 import { memo, useEffect, useState } from "react";
 
 const homeData = {
-  skills: ["Home", "Tournaments", "Community"],
+  skills: ["Elo Calculator", "Badges", "Ban History", "Steam Info"],
 };
 const AnimatedText = () => {
   const [text, setText] = useState(0);
@@ -13,7 +13,7 @@ const AnimatedText = () => {
   });
   return (
     <span className="cd-headline rotate-1">
-      <span className="blc">esports </span>
+      <span className="blc">features </span>
       <span className="cd-words-wrapper">
         {homeData.skills.map((skill, i) => (
           <b

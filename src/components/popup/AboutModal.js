@@ -12,51 +12,30 @@ const AboutPopup = () => {
 
   const aboutData = {
     firstName: "Florin",
-    lastName: "Stefanescu",
+    lastName: "",
     bithday: "01.07.1996",
     address: "Milan, Italy",
     serviceLists: [
       "Website Development",
       "Esports Manager",
-      "Content Marketing",
       "Product JuniorManager",
     ],
     skills: {
       programming: [
         { name: "WordPress", value: "95" },
         { name: "JavaScript", value: "75" },
-        { name: "React", value: "75" },
+        { name: "React", value: "60" },
+        { name: "NextJS", value: "40" },
       ],
     },
-    education: [
-      {
-        year: "2014 - 2016",
-        unv: "Oxford Univercity",
-        degree: "Master Degree",
-      },
-      {
-        year: "2010 - 2014",
-        unv: "Texas Univercity",
-        degree: "Bachelor Degree",
-      },
-      {
-        year: "2008 - 2010",
-        unv: "Simone College",
-        degree: "Associate Degree",
-      },
-    ],
     working: [
       {
-        year: "2018 - running",
-        company: "Envato Elements",
-        deg: "Exclusive Author",
+        year: "2018 - active",
+        company: "Freelance ",
+        deg: "Developer",
       },
-      {
-        year: "2015 - 2018",
-        company: "Avo Corporation",
-        deg: "Content Manager",
-      },
-      { year: "2012 - 2015", company: "FC Barcelona", deg: "Football Player" },
+
+      { year: "2012 - 2015", company: "Inter Milano", deg: "Football Player" },
     ],
     partnersLogos: [
       "img/partners/1.png",
@@ -86,7 +65,7 @@ const AboutPopup = () => {
               </div>
               <div className="short w-full float-left">
                 <h3 className="name text-[22px] uppercase mb-[7px]">
-                  Florin <span className="text-pink-color">Stefanescu</span>
+                  Florin <span className="text-pink-color"></span>
                 </h3>
                 <h3 className="job font-normal text-main-color text-[15px]">
                   <AnimatedText />
@@ -101,9 +80,7 @@ const AboutPopup = () => {
                     <span className="pl-[37px]">Florin</span>
                   </div>
                 </li>
-               
-                
-                
+
                 <li className="w-full float-left">
                   <div className="list_inner m-0 w-full float-left relative">
                     <i className="icon-mail-1 text-pink-color text-[16px] absolute left-0 top-1/2 translate-y-[-50%]" />
@@ -157,17 +134,14 @@ const AboutPopup = () => {
                     <i className="icon-right-dir absolute left-[-7px] top-1/2 translate-y-[-50%] text-pink-color text-[16px] mt-[1px]" />
                     Website Development
                   </li>
+
                   <li className="mb-[8px] w-full float-left relative pl-[25px]">
                     <i className="icon-right-dir absolute left-[-7px] top-1/2 translate-y-[-50%] text-pink-color text-[16px] mt-[1px]" />
-                    Content Marketing
-                  </li>
-                  <li className="mb-[8px] w-full float-left relative pl-[25px]">
-                    <i className="icon-right-dir absolute left-[-7px] top-1/2 translate-y-[-50%] text-pink-color text-[16px] mt-[1px]" />
-                    Social Media Marketing
+                    eSports Work
                   </li>
                   <li className="w-full float-left relative pl-[25px]">
                     <i className="icon-right-dir absolute left-[-7px] top-1/2 translate-y-[-50%] text-pink-color text-[16px] mt-[1px]" />
-                    Shared Web Hosting
+                    Player
                   </li>
                 </ul>
               </div>
@@ -206,18 +180,28 @@ const AboutPopup = () => {
                 <div className="progress_inner" data-value={90}>
                   <span>
                     <span className="label">React</span>
-                    <span className="number">75%</span>
+                    <span className="number">65%</span>
                   </span>
                   <div className="background">
                     <div className="bar open">
-                      <div className="bar_in" style={{ width: "75%" }} />
+                      <div className="bar_in" style={{ width: "65%" }} />
+                    </div>
+                  </div>
+                </div>
+                <div className="progress_inner" data-value={90}>
+                  <span>
+                    <span className="label">NextJSt</span>
+                    <span className="number">40%</span>
+                  </span>
+                  <div className="background">
+                    <div className="bar open">
+                      <div className="bar_in" style={{ width: "40%" }} />
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            
-           
+
             <div className="timeline w-full float-left mb-[55px]">
               <div className="about_title w-full float-left relative overflow-hidden border-dashed border-[rgba(255,255,255,.15)] border-b pb-[15px]">
                 <h3 className="text-[18px] font-semibold">
@@ -232,32 +216,16 @@ const AboutPopup = () => {
                     <div className="list_inner w-full h-auto clear-both flex relative">
                       <div className="time w-1/2 pr-[15px]">
                         <span className="inline-block px-[25px] py-[5px] bg-[rgba(255,255,255,.05)] rounded-[50px] text-[14px] whitespace-nowrap">
-                          2018 - running
+                          2018 - active
                         </span>
                       </div>
                       <div className="place w-1/2 pl-[15px]">
-                        <h3 className="text-[15px] mb-[2px]">
-                          Envato Elements
-                        </h3>
-                        <span className="text-[14px]">Exclusive Author</span>
+                        <h3 className="text-[15px] mb-[2px]">Freelance</h3>
+                        <span className="text-[14px]">Developer</span>
                       </div>
                     </div>
                   </li>
-                  <li className="m-0 w-full float-left relative pl-[20px] pb-[45px]">
-                    <div className="list_inner w-full h-auto clear-both flex relative">
-                      <div className="time w-1/2 pr-[15px]">
-                        <span className="inline-block px-[25px] py-[5px] bg-[rgba(255,255,255,.05)] rounded-[50px] text-[14px] whitespace-nowrap">
-                          2015 - 2018
-                        </span>
-                      </div>
-                      <div className="place w-1/2 pl-[15px]">
-                        <h3 className="text-[15px] mb-[2px]">
-                          Avo Corporation
-                        </h3>
-                        <span className="text-[14px]">Content Manager</span>
-                      </div>
-                    </div>
-                  </li>
+
                   <li className="m-0 w-full float-left relative pl-[20px]">
                     <div className="list_inner w-full h-auto clear-both flex relative">
                       <div className="time w-1/2 pr-[15px]">
@@ -266,7 +234,7 @@ const AboutPopup = () => {
                         </span>
                       </div>
                       <div className="place w-1/2 pl-[15px]">
-                        <h3 className="text-[15px] mb-[2px]">FC Barcelona</h3>
+                        <h3 className="text-[15px] mb-[2px]">Inter Milano</h3>
                         <span className="text-[14px]">Football Player</span>
                       </div>
                     </div>
@@ -323,7 +291,6 @@ const AboutPopup = () => {
                 </ul>
               </div>
             </div>
-           
           </div>
         </div>
       </div>
