@@ -5,7 +5,7 @@
   "scripts": {
     "compileCss": "tailwindcss -i ./public/src/main.css -o ./public/assets/css/main.css --watch",
     "dev": "concurrently \"next dev -p 3001\" \"npm run compileCss\" ",
-    "build": "npm i && next build -p 3001 ",
+    "build": "npm i && next build  ",
     "start": "next start -p 3001",
     "lint": "next lint",
     "export": "next build && next export "
