@@ -19,6 +19,15 @@ const Home = () => {
               Badges
             </a>
           </div>
+          <div className="edrea_tm_button transition_link">
+            <a
+              href="https://chromewebstore.google.com/detail/faceit-visuals/ngcickocpcongeagbpkejabhkgmcildo"
+              target="_blank"
+              className="yourClassNameHere" // Add your class name here
+            >
+              Install on chrome
+            </a>
+          </div>
         </div>
       </div>
     </div>
