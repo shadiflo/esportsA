@@ -4,9 +4,9 @@
   "private": true,
   "scripts": {
     "compileCss": "tailwindcss -i ./public/src/main.css -o ./public/assets/css/main.css --watch",
-    "dev": "concurrently \"next dev\" \"npm run compileCss\"",
-    "build": "next build",
-    "start": "next start",
+    "dev": "concurrently \"next dev -p 3002\" \"npm run compileCss\" ",
+    "build": "npm i && next build ",
+    "start": "next start -p 3002",
     "lint": "next lint",
     "export": "next build && next export "
   },
