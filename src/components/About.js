@@ -28,7 +28,7 @@ const About = () => {
             <div className="text w-full float-left mb-[36px]">
               <p>
                 My name is <span className="text-white-color">Florin.</span> I
-                am the creator of{" "}
+                am the creator of:{" "}
                 <span className="text-white-color">FaceitVisuals</span>
               </p>
             </div>
