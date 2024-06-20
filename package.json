@@ -6,7 +6,7 @@
     "compileCss": "tailwindcss -i ./public/src/main.css -o ./public/assets/css/main.css --watch",
     "dev": "concurrently \"next dev -p 3001\" \"npm run compileCss\" ",
     "build": "npm i && next build  ",
-    "start": "node server/server.js",
+    "start": "concurrently \"next start -p 3001\" \"node server/server.js\"",
     "lint": "next lint",
     "export": "next build && next export "
   },

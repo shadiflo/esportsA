@@ -83,7 +83,7 @@ app.prepare().then(() => {
     return handle(req, res);
   });
 
-  server.listen(3001, (err) => {
+  server.listen(3002, (err) => {
     if (err) throw err;
     console.log("Server live on port 3001!");
   });
