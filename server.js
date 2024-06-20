@@ -85,6 +85,6 @@ app.prepare().then(() => {
 
   server.listen(3002, (err) => {
     if (err) throw err;
-    console.log("Server live on port 3001!");
+    console.log("Server live on port 3002!");
   });
 });
