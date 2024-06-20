@@ -6,12 +6,15 @@
     "compileCss": "tailwindcss -i ./public/src/main.css -o ./public/assets/css/main.css --watch",
     "dev": "concurrently \"next dev -p 3001\" \"npm run compileCss\" ",
     "build": "npm i && next build  ",
-    "start": "next start -p 3001",
+    "start": "node server/server.js",
     "lint": "next lint",
     "export": "next build && next export "
   },
   "dependencies": {
     "concurrently": "^7.6.0",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.3",
     "next": "13.1.1",
     "react": "18.2.0",
     "react-circular-progressbar": "^2.1.0",
