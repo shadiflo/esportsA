@@ -1,9 +1,9 @@
 const express = require("express");
 const next = require("next");
 const mongoose = require("mongoose");
-const User = require("./server/modules/face_it");
+const User = require("./modules/face_it");
 const dotenv = require("dotenv");
-const home = require("./server/home");
+const home = require("./home");
 const cors = require("cors");
 
 dotenv.config({ path: `${__dirname}/config.env` });
